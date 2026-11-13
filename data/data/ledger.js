@@ -1,0 +1,806 @@
+// Private financial records. Publish only to an intended audience.
+globalThis.publishedLedger = {
+  "version": 1,
+  "revision": 99,
+  "counters": {
+    "category": 11,
+    "expense": 41,
+    "payment": 41,
+    "voucher": 0
+  },
+  "settings": {
+    "name": "بيت التحفيات",
+    "english": "HOUSE OF ANTIQUES",
+    "contact": "",
+    "logo": ""
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "الحديقة والتشجير"
+    },
+    {
+      "id": 2,
+      "name": "الكهرباء والإنارة"
+    },
+    {
+      "id": 3,
+      "name": "الماء والسباكة"
+    },
+    {
+      "id": 4,
+      "name": "أعمال الجبس بورد"
+    },
+    {
+      "id": 5,
+      "name": "الصيانة والترميم"
+    },
+    {
+      "id": 6,
+      "name": "العطور والمعطرات"
+    },
+    {
+      "id": 7,
+      "name": "مواد التنظيف"
+    },
+    {
+      "id": 8,
+      "name": "الأثاث والمقتنيات"
+    },
+    {
+      "id": 9,
+      "name": "الضيافة"
+    },
+    {
+      "id": 10,
+      "name": "أجور العمال"
+    },
+    {
+      "id": 11,
+      "name": "مصروفات أخرى"
+    }
+  ],
+  "expenses": [
+    {
+      "id": 1,
+      "date": "2026-11-13",
+      "categoryId": 1,
+      "description": "ورود و نباتات حديقة بيت التحفيات",
+      "vendor": "استاذ احمد - الكوت",
+      "total": 5000000,
+      "items": []
+    },
+    {
+      "id": 2,
+      "date": "2026-10-30",
+      "categoryId": 6,
+      "description": "ملئ اجهزة العطور",
+      "vendor": "محمد",
+      "total": 250000,
+      "items": []
+    },
+    {
+      "id": 3,
+      "date": "2026-10-28",
+      "categoryId": 4,
+      "description": "قاطع جبس بورد في حوش بيت التحفيات ارتفاع 4 متر عرض 2.2 متر",
+      "vendor": "ناصر",
+      "total": 450000,
+      "items": []
+    },
+    {
+      "id": 4,
+      "date": "2026-08-30",
+      "categoryId": 2,
+      "description": "اجور  مولدة الشهرية",
+      "vendor": "مولدة",
+      "total": 750000,
+      "items": []
+    },
+    {
+      "id": 5,
+      "date": "2026-09-30",
+      "categoryId": 2,
+      "description": "اشتراك مولدة",
+      "vendor": "مولدة",
+      "total": 750000,
+      "items": []
+    },
+    {
+      "id": 6,
+      "date": "2026-10-30",
+      "categoryId": 2,
+      "description": "اشتراك مولدة",
+      "vendor": "مولدة",
+      "total": 750000,
+      "items": []
+    },
+    {
+      "id": 7,
+      "date": "2026-09-30",
+      "categoryId": 11,
+      "description": "اجار شقة العمال",
+      "vendor": "ايجار شهري",
+      "total": 750000,
+      "items": []
+    },
+    {
+      "id": 8,
+      "date": "2026-10-30",
+      "categoryId": 11,
+      "description": "اجار شقة العمال",
+      "vendor": "ايجار شقة",
+      "total": 750000,
+      "items": []
+    },
+    {
+      "id": 9,
+      "date": "2026-11-13",
+      "categoryId": 2,
+      "description": "صيانة الانارة",
+      "vendor": "انارة",
+      "total": 300000,
+      "items": []
+    },
+    {
+      "id": 10,
+      "date": "2026-10-30",
+      "categoryId": 1,
+      "description": "تأجير طاولات و كراسي الحديقة للمعرض",
+      "vendor": "محمد",
+      "total": 200000,
+      "items": []
+    },
+    {
+      "id": 11,
+      "date": "2026-11-01",
+      "categoryId": 9,
+      "description": "قهوة - شاي - ثلج - ماء",
+      "vendor": "اسواق",
+      "total": 300000,
+      "items": []
+    },
+    {
+      "id": 12,
+      "date": "2026-09-01",
+      "categoryId": 7,
+      "description": "مستلزمات تنظيف البيت",
+      "vendor": "اسواق",
+      "total": 150000,
+      "items": []
+    },
+    {
+      "id": 13,
+      "date": "2026-08-01",
+      "categoryId": 10,
+      "description": "اجور العامل البنكالي شهر 8",
+      "vendor": "راتب",
+      "total": 750000,
+      "items": []
+    },
+    {
+      "id": 14,
+      "date": "2026-09-01",
+      "categoryId": 10,
+      "description": "راتب البنكالي - شهر 9",
+      "vendor": "راتب",
+      "total": 750000,
+      "items": []
+    },
+    {
+      "id": 15,
+      "date": "2026-10-01",
+      "categoryId": 10,
+      "description": "راتب بنكالي -شهر 10",
+      "vendor": "راتب",
+      "total": 750000,
+      "items": []
+    },
+    {
+      "id": 16,
+      "date": "2026-11-01",
+      "categoryId": 10,
+      "description": "راتب بنكالي -شهر 11",
+      "vendor": "راتب",
+      "total": 750000,
+      "items": []
+    },
+    {
+      "id": 17,
+      "date": "2026-11-13",
+      "categoryId": 5,
+      "description": "170 متر  المتر 15 الف  سيراميك المطبخ",
+      "vendor": "سيراميك",
+      "total": 2250000,
+      "items": []
+    },
+    {
+      "id": 18,
+      "date": "2026-11-13",
+      "categoryId": 10,
+      "description": "عمال سيراميك",
+      "vendor": "عمال",
+      "total": 3000000,
+      "items": []
+    },
+    {
+      "id": 19,
+      "date": "2026-09-01",
+      "categoryId": 10,
+      "description": "راتب عبد العزيز شهر التاسع",
+      "vendor": "راتب",
+      "total": 650000,
+      "items": []
+    },
+    {
+      "id": 20,
+      "date": "2026-11-13",
+      "categoryId": 10,
+      "description": "راتب عبد العزيز شهر 10",
+      "vendor": "راتب",
+      "total": 650000,
+      "items": []
+    },
+    {
+      "id": 21,
+      "date": "2026-11-01",
+      "categoryId": 10,
+      "description": "راتب العامل عبد الهزيز شهر 11",
+      "vendor": "راتب",
+      "total": 650000,
+      "items": []
+    },
+    {
+      "id": 22,
+      "date": "2026-09-01",
+      "categoryId": 10,
+      "description": "راتب العامل حمزة",
+      "vendor": "راتب",
+      "total": 650000,
+      "items": []
+    },
+    {
+      "id": 23,
+      "date": "2026-10-01",
+      "categoryId": 10,
+      "description": "راتب العامل  حمزة شهر 10",
+      "vendor": "راتب",
+      "total": 650000,
+      "items": []
+    },
+    {
+      "id": 24,
+      "date": "2026-11-01",
+      "categoryId": 10,
+      "description": "راتب العامل حمزة شهر 11",
+      "vendor": "راتب",
+      "total": 650000,
+      "items": []
+    },
+    {
+      "id": 25,
+      "date": "2026-11-13",
+      "categoryId": 9,
+      "description": "نثريات - جاي - كهوة - هدايا (رش) - اكل عمال  بالشهر 750 - 3 اشهر من  شهر 8 الى شهر 10",
+      "vendor": "نثريات",
+      "total": 2250000,
+      "items": []
+    },
+    {
+      "id": 26,
+      "date": "2026-11-13",
+      "categoryId": 5,
+      "description": "اللبخ",
+      "vendor": "لباخين",
+      "total": 800000,
+      "items": []
+    },
+    {
+      "id": 27,
+      "date": "2026-11-13",
+      "categoryId": 5,
+      "description": "اسمنت 3 طن - مع النقل",
+      "vendor": "عزيز",
+      "total": 600000,
+      "items": []
+    },
+    {
+      "id": 28,
+      "date": "2026-09-12",
+      "categoryId": 5,
+      "description": "رمل للمطبخ",
+      "vendor": "حسام",
+      "total": 405000,
+      "items": []
+    },
+    {
+      "id": 29,
+      "date": "2026-09-20",
+      "categoryId": 5,
+      "description": "مشتريات السيراميك - قواطع و فواصل",
+      "vendor": "الشورجة",
+      "total": 270000,
+      "items": []
+    },
+    {
+      "id": 30,
+      "date": "2026-09-25",
+      "categoryId": 2,
+      "description": "نقاط الكهرباء — 26 نقطة",
+      "vendor": "الشورجة",
+      "total": 195000,
+      "items": []
+    },
+    {
+      "id": 31,
+      "date": "2026-10-12",
+      "categoryId": 11,
+      "description": "أبعاد العراق — نظام خاتون (مكتمل وتم تسليمه)",
+      "vendor": "ابعاد العراق",
+      "total": 9000000,
+      "items": []
+    },
+    {
+      "id": 32,
+      "date": "2026-09-25",
+      "categoryId": 2,
+      "description": "أجور الكهربائي",
+      "vendor": "عامل كهرباء",
+      "total": 400000,
+      "items": []
+    },
+    {
+      "id": 33,
+      "date": "2026-11-13",
+      "categoryId": 5,
+      "description": "( صيانة الكاميرات - ربطها بتطبيق - ( يحتاج هاردات عدد 4 بسعر كلي 1000",
+      "vendor": "مكتب كاميرات",
+      "total": 1200000,
+      "items": []
+    },
+    {
+      "id": 34,
+      "date": "2026-11-13",
+      "categoryId": 5,
+      "description": "شاشة الكاميرات",
+      "vendor": "حي الجامعة",
+      "total": 75000,
+      "items": []
+    },
+    {
+      "id": 35,
+      "date": "2026-11-13",
+      "categoryId": 11,
+      "description": "شراء المكيفات والساحبات للمطبخ — دون تركيب",
+      "vendor": "الكرادة",
+      "total": 4500000,
+      "items": []
+    },
+    {
+      "id": 36,
+      "date": "2026-10-04",
+      "categoryId": 2,
+      "description": "السباكة والمغاسل والخلاطات",
+      "vendor": "كمب سارا",
+      "total": 1350000,
+      "items": []
+    },
+    {
+      "id": 37,
+      "date": "2026-09-09",
+      "categoryId": 2,
+      "description": "مشتريات انار ة المطبخ (دون تركيب)",
+      "vendor": "كمب سارا",
+      "total": 650000,
+      "items": []
+    },
+    {
+      "id": 38,
+      "date": "2026-10-03",
+      "categoryId": 5,
+      "description": "مواد صبغ الاخشاب و الحائط",
+      "vendor": "السعدون",
+      "total": 750000,
+      "items": []
+    },
+    {
+      "id": 39,
+      "date": "2026-10-10",
+      "categoryId": 11,
+      "description": "تصميم الهوية البصرية والشعار الخاص بخاتون",
+      "vendor": "ابعاد العراق",
+      "total": 1500000,
+      "items": []
+    },
+    {
+      "id": 40,
+      "date": "2026-09-07",
+      "categoryId": 11,
+      "description": "موقع الكتروني خاتون",
+      "vendor": "ابعاد العراق",
+      "total": 750000,
+      "items": []
+    },
+    {
+      "id": 41,
+      "date": "2026-11-01",
+      "categoryId": 8,
+      "description": "سماعات صوت - لمدة 10 ايام تأجير",
+      "vendor": "هشام",
+      "total": 250000,
+      "items": []
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "expenseId": 1,
+      "date": "2026-10-30",
+      "amount": 1500000,
+      "method": "cash",
+      "recipient": "استاذ احمد - الكوت",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "expenseId": 16,
+      "date": "2026-11-13",
+      "amount": 750000,
+      "method": "cash",
+      "recipient": "راتب",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "expenseId": 15,
+      "date": "2026-11-13",
+      "amount": 750000,
+      "method": "cash",
+      "recipient": "راتب",
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "expenseId": 14,
+      "date": "2026-11-13",
+      "amount": 750000,
+      "method": "cash",
+      "recipient": "راتب",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "expenseId": 13,
+      "date": "2026-11-13",
+      "amount": 750000,
+      "method": "cash",
+      "recipient": "راتب",
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "expenseId": 12,
+      "date": "2026-11-13",
+      "amount": 150000,
+      "method": "cash",
+      "recipient": "اسواق",
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "expenseId": 11,
+      "date": "2026-11-13",
+      "amount": 300000,
+      "method": "cash",
+      "recipient": "اسواق",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "expenseId": 10,
+      "date": "2026-11-13",
+      "amount": 200000,
+      "method": "cash",
+      "recipient": "محمد",
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "expenseId": 9,
+      "date": "2026-11-13",
+      "amount": 300000,
+      "method": "cash",
+      "recipient": "انارة",
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "expenseId": 8,
+      "date": "2026-11-13",
+      "amount": 750000,
+      "method": "cash",
+      "recipient": "ايجار شقة",
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "expenseId": 7,
+      "date": "2026-11-13",
+      "amount": 750000,
+      "method": "cash",
+      "recipient": "ايجار شهري",
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "expenseId": 6,
+      "date": "2026-11-13",
+      "amount": 750000,
+      "method": "cash",
+      "recipient": "مولدة",
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "expenseId": 5,
+      "date": "2026-11-13",
+      "amount": 750000,
+      "method": "cash",
+      "recipient": "مولدة",
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "expenseId": 4,
+      "date": "2026-11-13",
+      "amount": 750000,
+      "method": "cash",
+      "recipient": "مولدة",
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "expenseId": 3,
+      "date": "2026-11-13",
+      "amount": 450000,
+      "method": "cash",
+      "recipient": "ناصر",
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "expenseId": 2,
+      "date": "2026-11-13",
+      "amount": 250000,
+      "method": "cash",
+      "recipient": "محمد",
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "expenseId": 17,
+      "date": "2026-11-13",
+      "amount": 2250000,
+      "method": "cash",
+      "recipient": "سيراميك",
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "expenseId": 18,
+      "date": "2026-11-13",
+      "amount": 3000000,
+      "method": "cash",
+      "recipient": "عمال",
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "expenseId": 19,
+      "date": "2026-11-13",
+      "amount": 650000,
+      "method": "cash",
+      "recipient": "راتب",
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "expenseId": 20,
+      "date": "2026-11-13",
+      "amount": 650000,
+      "method": "cash",
+      "recipient": "راتب",
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "expenseId": 21,
+      "date": "2026-11-13",
+      "amount": 650000,
+      "method": "cash",
+      "recipient": "راتب",
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "expenseId": 22,
+      "date": "2026-11-13",
+      "amount": 650000,
+      "method": "cash",
+      "recipient": "راتب",
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "expenseId": 23,
+      "date": "2026-11-13",
+      "amount": 650000,
+      "method": "cash",
+      "recipient": "راتب",
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "expenseId": 24,
+      "date": "2026-11-13",
+      "amount": 650000,
+      "method": "cash",
+      "recipient": "راتب",
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "expenseId": 25,
+      "date": "2026-11-13",
+      "amount": 2250000,
+      "method": "cash",
+      "recipient": "نثريات",
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "expenseId": 26,
+      "date": "2026-11-13",
+      "amount": 800000,
+      "method": "cash",
+      "recipient": "لباخين",
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "expenseId": 27,
+      "date": "2026-11-13",
+      "amount": 600000,
+      "method": "cash",
+      "recipient": "عزيز",
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "expenseId": 28,
+      "date": "2026-11-13",
+      "amount": 405000,
+      "method": "cash",
+      "recipient": "حسام",
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "expenseId": 29,
+      "date": "2026-11-13",
+      "amount": 270000,
+      "method": "cash",
+      "recipient": "الشورجة",
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "expenseId": 30,
+      "date": "2026-11-13",
+      "amount": 195000,
+      "method": "cash",
+      "recipient": "الشورجة",
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "expenseId": 31,
+      "date": "2026-11-13",
+      "amount": 9000000,
+      "method": "cash",
+      "recipient": "ابعاد العراق",
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "expenseId": 32,
+      "date": "2026-11-13",
+      "amount": 400000,
+      "method": "cash",
+      "recipient": "عامل كهرباء",
+      "notes": ""
+    },
+    {
+      "id": 33,
+      "expenseId": 33,
+      "date": "2026-11-13",
+      "amount": 1200000,
+      "method": "cash",
+      "recipient": "مكتب كاميرات",
+      "notes": ""
+    },
+    {
+      "id": 34,
+      "expenseId": 34,
+      "date": "2026-11-13",
+      "amount": 75000,
+      "method": "cash",
+      "recipient": "حي الجامعة",
+      "notes": ""
+    },
+    {
+      "id": 35,
+      "expenseId": 35,
+      "date": "2026-11-13",
+      "amount": 4500000,
+      "method": "cash",
+      "recipient": "الكرادة",
+      "notes": ""
+    },
+    {
+      "id": 36,
+      "expenseId": 36,
+      "date": "2026-11-13",
+      "amount": 1350000,
+      "method": "cash",
+      "recipient": "كمب سارا",
+      "notes": ""
+    },
+    {
+      "id": 37,
+      "expenseId": 37,
+      "date": "2026-11-13",
+      "amount": 650000,
+      "method": "cash",
+      "recipient": "كمب سارا",
+      "notes": ""
+    },
+    {
+      "id": 38,
+      "expenseId": 38,
+      "date": "2026-11-13",
+      "amount": 750000,
+      "method": "cash",
+      "recipient": "السعدون",
+      "notes": ""
+    },
+    {
+      "id": 39,
+      "expenseId": 39,
+      "date": "2026-11-13",
+      "amount": 1500000,
+      "method": "cash",
+      "recipient": "ابعاد العراق",
+      "notes": ""
+    },
+    {
+      "id": 40,
+      "expenseId": 40,
+      "date": "2026-11-13",
+      "amount": 300000,
+      "method": "cash",
+      "recipient": "ابعاد العراق",
+      "notes": ""
+    },
+    {
+      "id": 41,
+      "expenseId": 41,
+      "date": "2026-11-13",
+      "amount": 250000,
+      "method": "cash",
+      "recipient": "هشام",
+      "notes": ""
+    }
+  ],
+  "vouchers": []
+};
