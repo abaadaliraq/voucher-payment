@@ -1,0 +1,11 @@
+@page { size: A4 portrait; margin: 12mm; }
+html, body { background: white; }
+body > :not(#print-area) { display: none !important; }
+#print-area { display: block; }
+#print-area:empty::before { content: "افتح سند صرف واضغط على طباعة السند."; }
+.voucher-paper { width: 100%; margin: 0; padding: 7mm; border: 4px double #a89566; font-size: 10pt;
+  -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.voucher-grid > div { display: grid; }
+.voucher-grid dd { max-width: 52mm; }
+.voucher-brand, .voucher-heading, .voucher-payment, .voucher-grid, .voucher-description, .signatures { break-inside: avoid; }
+.signatures { margin-top: 9mm; }
